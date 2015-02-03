@@ -13,11 +13,19 @@ and open the template in the editor.
     font-family: Arial;
    
 }
+h1
+{
+    text-align: center;
+}
 p
 {
     color: blue;
     font-family: Arial;
     
 }
-
-
+.planete
+{
+    width:300px;
+    height:300px;
+    float: left;
+}
