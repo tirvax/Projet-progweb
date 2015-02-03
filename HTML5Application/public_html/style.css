@@ -1,31 +1,30 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 2015-02-03, 13:16:35
-    Author     : TirvaX
-*/
-
 @font-face{
     
     font-family: Arial;
    
 }
+body
+{
+	background-image: url("universe.jpg");
+	background-attachment: fixed;
+}
 h1
 {
+	color: white;
     text-align: center;
 }
 p
 {
-    color: blue;
+    color: white;
     font-family: Arial;
     
 }
 .planete
 {
     width:300px;
-    height:300px;
+    
+    float: left;
+}
+
     float: left;
 }
