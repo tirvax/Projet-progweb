@@ -5,25 +5,76 @@
 }
 body
 {
-	background-image: url("universe.jpg");
+	/*background-image: url("earthmoon.jpg");*/
 	background-attachment: fixed;
+	background-color: black;
+	
+	
+}
+head
+{
+	position: fixed;
+	top: 0px;
 }
 h1
 {
+	box-shadow: 5px 5px 10px red;
 	color: white;
-    text-align: center;
+   text-align: center;
 }
 p
 {
     color: white;
     font-family: Arial;
+    border: 2px solid white;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
     
 }
 .planete
 {
-    width:300px;
+    width:200px;
     
     float: left;
 }
+a
+{
+	color: red;
+	text-decoration: none;
+	font-style: italic;
+}
 
+a:hover
+{
+	color: green;
+	text-decoration: underline;
+}
+header
+{
+	
+	color: white;
+	background-color: black;
+	border: 1px white solid;
+	height: 50px;
+	width: 100%;
+	
+}
+nav
+{
+	position: fixed;
+	color: white;
+	border: 1px solid white;
+	top: 130px;
+	height: 600px;
+	text-align: left;
+	width: 200px;
+	float: left;
+}
+
+section
+{
+	margin-left: 220px;
+}
    
